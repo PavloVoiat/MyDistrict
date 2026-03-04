@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://1fwfrjk6jkok"
-path="res://.godot/imported/stol.glb-8dc2a59bd64f51febb066acb5ff14dd2.scn"
+uid="uid://crf7031iq7k6b"
+path="res://.godot/imported/shkaf.glb-5102042ce229c8b2d0f2b3cf684a71ad.scn"
 
 [deps]
 
-source_file="res://Blender/stol.glb"
-dest_files=["res://.godot/imported/stol.glb-8dc2a59bd64f51febb066acb5ff14dd2.scn"]
+source_file="res://Assets/Models/Blender/shkaf.glb"
+dest_files=["res://.godot/imported/shkaf.glb-5102042ce229c8b2d0f2b3cf684a71ad.scn"]
 
 [params]
 
@@ -39,16 +39,13 @@ materials/extract_format=0
 materials/extract_path=""
 _subresources={
 "nodes": {
-"PATH:drawer1": {
+"PATH:dver_levaia": {
 "generate/physics": true
 },
-"PATH:drawer2": {
+"PATH:dver_pravaia": {
 "generate/physics": true
 },
-"PATH:drawer3": {
-"generate/physics": true
-},
-"PATH:table": {
+"PATH:shkaf": {
 "generate/physics": true
 }
 }

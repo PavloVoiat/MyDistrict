@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://up1k5maw517d"
-path="res://.godot/imported/room.glb-082cb1d1ed56edf6b89128e17f949646.scn"
+uid="uid://b0lyojpw1dytw"
+path="res://.godot/imported/taburetka.glb-3e255e2f0edee0eb405d329cdab81b4c.scn"
 
 [deps]
 
-source_file="res://Blender/room.glb"
-dest_files=["res://.godot/imported/room.glb-082cb1d1ed56edf6b89128e17f949646.scn"]
+source_file="res://Assets/Models/Blender/taburetka.glb"
+dest_files=["res://.godot/imported/taburetka.glb-3e255e2f0edee0eb405d329cdab81b4c.scn"]
 
 [params]
 
@@ -37,6 +37,12 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:taburetka": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1

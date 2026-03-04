@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://5e6cgwubc6v7"]
 
-[ext_resource type="PackedScene" uid="uid://up1k5maw517d" path="res://Blender/room.glb" id="1_go701"]
-[ext_resource type="PackedScene" uid="uid://crf7031iq7k6b" path="res://Blender/shkaf.glb" id="2_5a7ea"]
+[ext_resource type="PackedScene" uid="uid://up1k5maw517d" path="res://Assets/Models/Blender/room.glb" id="1_go701"]
+[ext_resource type="PackedScene" uid="uid://crf7031iq7k6b" path="res://Assets/Models/Blender/shkaf.glb" id="2_5a7ea"]
 [ext_resource type="Script" uid="uid://c331eh7yntm0n" path="res://Scripts/openable_object.gd" id="3_5a7ea"]
-[ext_resource type="PackedScene" uid="uid://1fwfrjk6jkok" path="res://Blender/stol.glb" id="4_fo5ed"]
-[ext_resource type="PackedScene" uid="uid://b0lyojpw1dytw" path="res://Blender/taburetka.glb" id="5_5ukr8"]
-[ext_resource type="PackedScene" uid="uid://dbcd5plyvy4rr" path="res://Blender/krovat.glb" id="6_5ukr8"]
+[ext_resource type="PackedScene" uid="uid://1fwfrjk6jkok" path="res://Assets/Models/Blender/stol.glb" id="4_fo5ed"]
+[ext_resource type="PackedScene" uid="uid://b0lyojpw1dytw" path="res://Assets/Models/Blender/taburetka.glb" id="5_5ukr8"]
+[ext_resource type="PackedScene" uid="uid://dbcd5plyvy4rr" path="res://Assets/Models/Blender/krovat.glb" id="6_5ukr8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5a7ea"]
 
@@ -75,11 +75,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0751722, 0, 2.625)
 [node name="krovat2" parent="." unique_id=1593974058 instance=ExtResource("6_5ukr8")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.5, 0, 0.7)
 
-[node name="StaticBody3D" parent="krovat2/yashchik_levyi" parent_id_path=PackedInt32Array(1593974058, 1951363813) index="0" unique_id=283338291]
+[node name="StaticBody3D" parent="krovat2/yashchik_levyi" parent_id_path=PackedInt32Array(1593974058, 54221109) index="0" unique_id=535444468]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, -1.1)
 
-[node name="StaticBody3D" parent="krovat2/yashchik_pravyi" parent_id_path=PackedInt32Array(1593974058, 575035516) index="0" unique_id=131204744]
+[node name="StaticBody3D" parent="krovat2/yashchik_pravyi" parent_id_path=PackedInt32Array(1593974058, 393314737) index="0" unique_id=279115488]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, -1.1)
 

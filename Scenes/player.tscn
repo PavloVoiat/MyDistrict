@@ -28,6 +28,7 @@ mesh = SubResource("CylinderMesh_6t5aa")
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D" unique_id=2076687482]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, 0)
+fov = 60.0
 
 [node name="RayCast3D" type="RayCast3D" parent="CharacterBody3D/Camera3D" unique_id=1700447804]
 target_position = Vector3(0, 0, -1.5)

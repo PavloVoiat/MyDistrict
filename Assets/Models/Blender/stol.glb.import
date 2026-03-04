@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dbcd5plyvy4rr"
-path="res://.godot/imported/krovat.glb-99b539ace43dc165011edef5dc8f941c.scn"
+uid="uid://1fwfrjk6jkok"
+path="res://.godot/imported/stol.glb-77e7f6c36831021ddaa0948b4983b3f5.scn"
 
 [deps]
 
-source_file="res://Blender/krovat.glb"
-dest_files=["res://.godot/imported/krovat.glb-99b539ace43dc165011edef5dc8f941c.scn"]
+source_file="res://Assets/Models/Blender/stol.glb"
+dest_files=["res://.godot/imported/stol.glb-77e7f6c36831021ddaa0948b4983b3f5.scn"]
 
 [params]
 
@@ -39,31 +39,16 @@ materials/extract_format=0
 materials/extract_path=""
 _subresources={
 "nodes": {
-"PATH:krovat": {
+"PATH:drawer1": {
 "generate/physics": true
 },
-"PATH:matras_niz": {
+"PATH:drawer2": {
 "generate/physics": true
 },
-"PATH:matras_verkh": {
+"PATH:drawer3": {
 "generate/physics": true
 },
-"PATH:odeialo_niz": {
-"generate/physics": true
-},
-"PATH:odeialo_verkh": {
-"generate/physics": true
-},
-"PATH:podushka_niz": {
-"generate/physics": true
-},
-"PATH:podushka_verkh": {
-"generate/physics": true
-},
-"PATH:yashchik_levyi": {
-"generate/physics": true
-},
-"PATH:yashchik_pravyi": {
+"PATH:table": {
 "generate/physics": true
 }
 }

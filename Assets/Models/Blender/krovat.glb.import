@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b0lyojpw1dytw"
-path="res://.godot/imported/taburetka.glb-5054e76c765f0588eed5d09a419eb37a.scn"
+uid="uid://dbcd5plyvy4rr"
+path="res://.godot/imported/krovat.glb-590e9e78e8db17e6b78dba7934ff7dc3.scn"
 
 [deps]
 
-source_file="res://Blender/taburetka.glb"
-dest_files=["res://.godot/imported/taburetka.glb-5054e76c765f0588eed5d09a419eb37a.scn"]
+source_file="res://Assets/Models/Blender/krovat.glb"
+dest_files=["res://.godot/imported/krovat.glb-590e9e78e8db17e6b78dba7934ff7dc3.scn"]
 
 [params]
 
@@ -39,7 +39,31 @@ materials/extract_format=0
 materials/extract_path=""
 _subresources={
 "nodes": {
-"PATH:taburetka": {
+"PATH:krovat": {
+"generate/physics": true
+},
+"PATH:matras_niz": {
+"generate/physics": true
+},
+"PATH:matras_verkh": {
+"generate/physics": true
+},
+"PATH:odeialo_niz": {
+"generate/physics": true
+},
+"PATH:odeialo_verkh": {
+"generate/physics": true
+},
+"PATH:podushka_niz": {
+"generate/physics": true
+},
+"PATH:podushka_verkh": {
+"generate/physics": true
+},
+"PATH:yashchik_levyi": {
+"generate/physics": true
+},
+"PATH:yashchik_pravyi": {
 "generate/physics": true
 }
 }
