@@ -34,11 +34,11 @@ size = Vector3(1.5, 2, 3)
 [node name="shkaf2" parent="." unique_id=2053850780 instance=ExtResource("2_5a7ea")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 2.47)
 
-[node name="StaticBody3D" parent="shkaf2/dver_pravaia" parent_id_path=PackedInt32Array(2053850780, 2022044775) index="0" unique_id=135674018]
+[node name="StaticBody3D" parent="shkaf2/dver_pravaia" parent_id_path=PackedInt32Array(2053850780, 767786035) index="0" unique_id=1755850553]
 script = ExtResource("3_5a7ea")
 open_rotation = Vector3(0, 90, 0)
 
-[node name="StaticBody3D" parent="shkaf2/dver_levaia" parent_id_path=PackedInt32Array(2053850780, 916902069) index="0" unique_id=1614490704]
+[node name="StaticBody3D" parent="shkaf2/dver_levaia" parent_id_path=PackedInt32Array(2053850780, 57044355) index="0" unique_id=1266292670]
 script = ExtResource("3_5a7ea")
 open_rotation = Vector3(0, -90, 0)
 
@@ -57,15 +57,15 @@ shape = SubResource("BoxShape3D_fo5ed")
 [node name="stol" parent="." unique_id=289714179 instance=ExtResource("4_fo5ed")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.375, 0, 2.375)
 
-[node name="StaticBody3D" parent="stol/drawer1" parent_id_path=PackedInt32Array(289714179, 1659892181) index="0" unique_id=1714062817]
+[node name="StaticBody3D" parent="stol/drawer1" parent_id_path=PackedInt32Array(289714179, 255334704) index="0" unique_id=515701874]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, 0.4)
 
-[node name="StaticBody3D" parent="stol/drawer2" parent_id_path=PackedInt32Array(289714179, 1184934964) index="0" unique_id=59858291]
+[node name="StaticBody3D" parent="stol/drawer2" parent_id_path=PackedInt32Array(289714179, 731166102) index="0" unique_id=1973848733]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, 0.4)
 
-[node name="StaticBody3D" parent="stol/drawer3" parent_id_path=PackedInt32Array(289714179, 767899721) index="0" unique_id=1262617239]
+[node name="StaticBody3D" parent="stol/drawer3" parent_id_path=PackedInt32Array(289714179, 853465580) index="0" unique_id=1846821447]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, 0.4)
 
@@ -75,13 +75,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0751722, 0, 2.625)
 [node name="krovat2" parent="." unique_id=1593974058 instance=ExtResource("6_5ukr8")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.5, 0, 0.7)
 
-[node name="StaticBody3D" parent="krovat2/yashchik_levyi" parent_id_path=PackedInt32Array(1593974058, 54221109) index="0" unique_id=535444468]
+[node name="StaticBody3D" parent="krovat2/yashchik_levyi" parent_id_path=PackedInt32Array(1593974058, 1230069365) index="0" unique_id=1386572896]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, -1.1)
 
-[node name="StaticBody3D" parent="krovat2/yashchik_pravyi" parent_id_path=PackedInt32Array(1593974058, 393314737) index="0" unique_id=279115488]
+[node name="StaticBody3D" parent="krovat2/yashchik_pravyi" parent_id_path=PackedInt32Array(1593974058, 1703870024) index="0" unique_id=790930661]
 script = ExtResource("3_5a7ea")
 open_offset = Vector3(0, 0, -1.1)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1295358060]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.0930316, 2.4935417, 2.3404033)
 
 [editable path="shkaf2"]
 [editable path="stol"]
